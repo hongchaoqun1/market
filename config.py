@@ -13,8 +13,8 @@ class Config:
 
 class DevelopmentConfig(Config):
     Debug = True
-    #SQLALCHMY_DATABASE_URI = "mysql+pymysql://root:root1root1@123@rm-bp15kq3103u1df435io.mysql.rds.aliyuncs.com:3306/wdblog?charset=utf8"   
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:root1root1@123@rm-bp15kq3103u1df435io.mysql.rds.aliyuncs.com:3306/wdshop?charset=utf8'     
+    #SQLALCHMY_DATABASE_URI = "xxx"   
+    SQLALCHEMY_DATABASE_URI = 'xxx'     
 
 class TestingConfig(Config):
     pass
